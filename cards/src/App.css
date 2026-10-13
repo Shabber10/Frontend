@@ -1,0 +1,86 @@
+body{
+  margin: 0px;
+  padding: 0px;
+   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(45deg, rgb(255, 196, 0),rgb(38, 255, 0), rgb(0, 115, 128), rgb(242, 0, 255));
+
+.card{
+  height: 300px;
+  width: 250px;
+  background-color: aqua;
+  border-radius: 20px ;
+  overflow: hidden;
+  position: relative;
+}
+.top{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(136, 10, 254);
+  z-index: -1;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+}
+.circle{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: white 5px solid;
+  img{
+    height: 100px;
+    width: 100px;
+  }
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  overflow: hidden;
+}
+.text{
+  margin-top: 40px;
+  text-align: center;
+  .h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+}
+
+.star{
+  color: rgb(136, 10, 254);
+  align-items: center;
+}
+
+
+.btn{
+  margin-top: 10px;
+  display: flex;
+  button{
+    height: 30px;
+    width: 100px;
+    padding: 5px 8px  ;
+    border-radius: 30px;
+    background-color: rgb(136, 10, 254);
+    border: rgb(136, 10, 254);
+  }
+  gap: 30px;
+  padding: 0px 20px;
+}
+
+.cards{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
